@@ -1,3 +1,92 @@
-body{
-    background: #BDBDBD;
+body {
+    margin: 2%;
+    padding: 3%;
+    min-height: max-content;
+    ;
 }
+
+.portada {
+    position: relative;
+    display: inline-block
+}
+
+.texto1 {
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+   height:10%;
+width: 390%;
+}
+
+.texto2 {
+    position: absolute; 
+   top: 200px;
+    background-color: white;
+    height: 10%;
+    width: 390%;
+    text-align: center;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.imagen1{
+    height: 100%;
+    width: 390%;
+}
+
+
+.color {
+    text-align: left;
+    color: gray;
+
+}
+
+.circulo1 {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 100%;
+    float: right;
+}
+
+.circulo2 {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 100%;
+    float: left;
+    border: 1px black;
+    }
+        
+
+
+
+.card {
+    width: 350px;
+    height: 200px;
+    display: inline-block;
+
+}
+
+.card-body {
+    width: 400px;
+    height: 150px;
+    display: inline-block;
+}
+
+.card1 {
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+}
+
+.mb-3 {
+    height: 50%;
+    width: 50%;
+    float: unset
+}
+
